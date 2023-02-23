@@ -20,6 +20,11 @@ public class Lab {
      * @return return a^b using the pow() method of the Math class.
      */
     public double mathPow(double a, double b){
-        return 0;
+        double myNum = a;
+        double myNum2 = b;
+
+    ///  int test = a + b;
+       /// System.out.println(myNum); 
+        return (Math.pow(a,b));
     }
 }
